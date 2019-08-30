@@ -1,0 +1,16 @@
+PODS:
+  - MonthYearPicker (3.0.0)
+
+DEPENDENCIES:
+  - MonthYearPicker (~> 3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MonthYearPicker
+
+SPEC CHECKSUMS:
+  MonthYearPicker: 59cfa26c5bfbbc52ef147360d9846c349f578991
+
+PODFILE CHECKSUM: 00a0112609f8bb83b4cf90773a5f27473f25c35d
+
+COCOAPODS: 1.7.4

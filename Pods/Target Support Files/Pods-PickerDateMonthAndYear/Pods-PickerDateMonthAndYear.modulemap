@@ -1,0 +1,6 @@
+framework module Pods_PickerDateMonthAndYear {
+  umbrella header "Pods-PickerDateMonthAndYear-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12F77583E37F64E03F44DA04A3266361 /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1701F693699FF687BED75AC39651D1 /* MonthYearPickerView.swift */; };
+		37562363D8FD37F42E8410F654850605 /* MonthYearPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 191E4D866F0F51110DE680D3A28C611E /* MonthYearPicker-dummy.m */; };
+		62C778C4824F373D7F35F9AE654FB45F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		743AA70FE3BF802288D7CDC06078F55A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		9F129F1E4DD2A848EE3108AA6702437A /* Pods-PickerDateMonthAndYear-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E0D08E21A2F2A81BB8264CB90563F4 /* Pods-PickerDateMonthAndYear-dummy.m */; };
+		AA711AFBC067C59C766666FD70051C4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		DD6A84C2C22B1D5FFC982B5CEE72C8F9 /* Pods-PickerDateMonthAndYear-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F5499E7033BBCA1062BF5DB9F1CB6F /* Pods-PickerDateMonthAndYear-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5998D62D63E08E17310644EE625323F /* MonthYearPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08FA005E6EACCC432A5DAB5063FD0F67 /* MonthYearPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3BBCC00BCC4D0A2E381CA71993DA8F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C664F75D7FE4D02CDB8FE9EFADAEDA6;
+			remoteInfo = MonthYearPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02610955D16BCAA7B2D5142599E6A5E8 /* Pods-PickerDateMonthAndYear.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PickerDateMonthAndYear.modulemap"; sourceTree = "<group>"; };
+		02E403087DA7AF3BD1DCD9DC3BE171AC /* Pods-PickerDateMonthAndYear-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PickerDateMonthAndYear-Info.plist"; sourceTree = "<group>"; };
+		069B5AA7EF04ED3791135EC6616498E1 /* Pods-PickerDateMonthAndYear-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PickerDateMonthAndYear-acknowledgements.plist"; sourceTree = "<group>"; };
+		08FA005E6EACCC432A5DAB5063FD0F67 /* MonthYearPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MonthYearPicker-umbrella.h"; sourceTree = "<group>"; };
+		0A9F75AF5266A73DAABA1D92C31993C7 /* MonthYearPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MonthYearPicker.xcconfig; sourceTree = "<group>"; };
+		191E4D866F0F51110DE680D3A28C611E /* MonthYearPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MonthYearPicker-dummy.m"; sourceTree = "<group>"; };
+		308DDB03F72A8228E97EF4C251A0AF66 /* MonthYearPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MonthYearPicker-Info.plist"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3FC03153E9E27D7F23B8675F16F8249C /* MonthYearPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MonthYearPicker.modulemap; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B10CDAFDF0984FB9A651E8FAB1A7E08 /* Pods-PickerDateMonthAndYear-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickerDateMonthAndYear-frameworks.sh"; sourceTree = "<group>"; };
+		701FD8ACF5CB517E4B210C55293BE900 /* MonthYearPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MonthYearPicker.framework; path = MonthYearPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F5499E7033BBCA1062BF5DB9F1CB6F /* Pods-PickerDateMonthAndYear-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PickerDateMonthAndYear-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B14E591A7D0C79A7BAAB09D374CDC163 /* MonthYearPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MonthYearPicker-prefix.pch"; sourceTree = "<group>"; };
+		C4E0D08E21A2F2A81BB8264CB90563F4 /* Pods-PickerDateMonthAndYear-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PickerDateMonthAndYear-dummy.m"; sourceTree = "<group>"; };
+		C742513468D5F8415568C268A646B47A /* Pods_PickerDateMonthAndYear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PickerDateMonthAndYear.framework; path = "Pods-PickerDateMonthAndYear.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDADA18DDF1CFCB8E30E9B24F3155FCD /* Pods-PickerDateMonthAndYear-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PickerDateMonthAndYear-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E4059F0B5B7E1DC85696C2795A364526 /* Pods-PickerDateMonthAndYear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickerDateMonthAndYear.debug.xcconfig"; sourceTree = "<group>"; };
+		EE1701F693699FF687BED75AC39651D1 /* MonthYearPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthYearPickerView.swift; path = Sources/MonthYearPickerView.swift; sourceTree = "<group>"; };
+		FBCB6469B51D11A222C9D83DD8A89A88 /* Pods-PickerDateMonthAndYear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickerDateMonthAndYear.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60F11F469B53345B7D16505684BE7EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA711AFBC067C59C766666FD70051C4B /* Foundation.framework in Frameworks */,
+				743AA70FE3BF802288D7CDC06078F55A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9825D854D38DE9059E362AF15C3FAD60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C778C4824F373D7F35F9AE654FB45F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C3C0223A589572CCD8ACBB9D0F98D0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				701FD8ACF5CB517E4B210C55293BE900 /* MonthYearPicker.framework */,
+				C742513468D5F8415568C268A646B47A /* Pods_PickerDateMonthAndYear.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DB0334D8BDF28AECE7C5C00C852E5D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FC03153E9E27D7F23B8675F16F8249C /* MonthYearPicker.modulemap */,
+				0A9F75AF5266A73DAABA1D92C31993C7 /* MonthYearPicker.xcconfig */,
+				191E4D866F0F51110DE680D3A28C611E /* MonthYearPicker-dummy.m */,
+				308DDB03F72A8228E97EF4C251A0AF66 /* MonthYearPicker-Info.plist */,
+				B14E591A7D0C79A7BAAB09D374CDC163 /* MonthYearPicker-prefix.pch */,
+				08FA005E6EACCC432A5DAB5063FD0F67 /* MonthYearPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MonthYearPicker";
+			sourceTree = "<group>";
+		};
+		84830BB3D8D9C79464350FDFDF23E6D0 /* Pods-PickerDateMonthAndYear */ = {
+			isa = PBXGroup;
+			children = (
+				02610955D16BCAA7B2D5142599E6A5E8 /* Pods-PickerDateMonthAndYear.modulemap */,
+				DDADA18DDF1CFCB8E30E9B24F3155FCD /* Pods-PickerDateMonthAndYear-acknowledgements.markdown */,
+				069B5AA7EF04ED3791135EC6616498E1 /* Pods-PickerDateMonthAndYear-acknowledgements.plist */,
+				C4E0D08E21A2F2A81BB8264CB90563F4 /* Pods-PickerDateMonthAndYear-dummy.m */,
+				5B10CDAFDF0984FB9A651E8FAB1A7E08 /* Pods-PickerDateMonthAndYear-frameworks.sh */,
+				02E403087DA7AF3BD1DCD9DC3BE171AC /* Pods-PickerDateMonthAndYear-Info.plist */,
+				71F5499E7033BBCA1062BF5DB9F1CB6F /* Pods-PickerDateMonthAndYear-umbrella.h */,
+				E4059F0B5B7E1DC85696C2795A364526 /* Pods-PickerDateMonthAndYear.debug.xcconfig */,
+				FBCB6469B51D11A222C9D83DD8A89A88 /* Pods-PickerDateMonthAndYear.release.xcconfig */,
+			);
+			name = "Pods-PickerDateMonthAndYear";
+			path = "Target Support Files/Pods-PickerDateMonthAndYear";
+			sourceTree = "<group>";
+		};
+		8580969E9147865FFC5DC30D0CFD1722 /* MonthYearPicker */ = {
+			isa = PBXGroup;
+			children = (
+				EE1701F693699FF687BED75AC39651D1 /* MonthYearPickerView.swift */,
+				3DB0334D8BDF28AECE7C5C00C852E5D5 /* Support Files */,
+			);
+			name = MonthYearPicker;
+			path = MonthYearPicker;
+			sourceTree = "<group>";
+		};
+		9719EF6DBDF505D6FA2DCD295CB9A239 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84830BB3D8D9C79464350FDFDF23E6D0 /* Pods-PickerDateMonthAndYear */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				D30AA28F03EE86CF0CB2367E909E066B /* Pods */,
+				1C3C0223A589572CCD8ACBB9D0F98D0D /* Products */,
+				9719EF6DBDF505D6FA2DCD295CB9A239 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D30AA28F03EE86CF0CB2367E909E066B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8580969E9147865FFC5DC30D0CFD1722 /* MonthYearPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54269D449CD472F9E827E4E47250699E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5998D62D63E08E17310644EE625323F /* MonthYearPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0453820E981637BEE55A986B72BA8A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6A84C2C22B1D5FFC982B5CEE72C8F9 /* Pods-PickerDateMonthAndYear-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C664F75D7FE4D02CDB8FE9EFADAEDA6 /* MonthYearPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6480D921501BC4622F88E7E5262E285 /* Build configuration list for PBXNativeTarget "MonthYearPicker" */;
+			buildPhases = (
+				54269D449CD472F9E827E4E47250699E /* Headers */,
+				2DD009BE259CFA40EA1E93620072AFE0 /* Sources */,
+				60F11F469B53345B7D16505684BE7EED /* Frameworks */,
+				EEDE26B727E3B38F435F899EBA15C452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonthYearPicker;
+			productName = MonthYearPicker;
+			productReference = 701FD8ACF5CB517E4B210C55293BE900 /* MonthYearPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		560B630C54986B79B2CF5C46FB22682D /* Pods-PickerDateMonthAndYear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9971CEA71A4F0900E8D55C14516AB0E7 /* Build configuration list for PBXNativeTarget "Pods-PickerDateMonthAndYear" */;
+			buildPhases = (
+				F0453820E981637BEE55A986B72BA8A2 /* Headers */,
+				443859F8AEB2D727D64F3E72DDE87CBE /* Sources */,
+				9825D854D38DE9059E362AF15C3FAD60 /* Frameworks */,
+				6827855B41C4E590AAC3434103A2CC53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BC0B6B9A85B3F80108D40D1C45A94C2 /* PBXTargetDependency */,
+			);
+			name = "Pods-PickerDateMonthAndYear";
+			productName = "Pods-PickerDateMonthAndYear";
+			productReference = C742513468D5F8415568C268A646B47A /* Pods_PickerDateMonthAndYear.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1C3C0223A589572CCD8ACBB9D0F98D0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C664F75D7FE4D02CDB8FE9EFADAEDA6 /* MonthYearPicker */,
+				560B630C54986B79B2CF5C46FB22682D /* Pods-PickerDateMonthAndYear */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6827855B41C4E590AAC3434103A2CC53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDE26B727E3B38F435F899EBA15C452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DD009BE259CFA40EA1E93620072AFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37562363D8FD37F42E8410F654850605 /* MonthYearPicker-dummy.m in Sources */,
+				12F77583E37F64E03F44DA04A3266361 /* MonthYearPickerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		443859F8AEB2D727D64F3E72DDE87CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F129F1E4DD2A848EE3108AA6702437A /* Pods-PickerDateMonthAndYear-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BC0B6B9A85B3F80108D40D1C45A94C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MonthYearPicker;
+			target = 4C664F75D7FE4D02CDB8FE9EFADAEDA6 /* MonthYearPicker */;
+			targetProxy = C3BBCC00BCC4D0A2E381CA71993DA8F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A57AD9B6C20D9848F02FA3211A14180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBCB6469B51D11A222C9D83DD8A89A88 /* Pods-PickerDateMonthAndYear.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PickerDateMonthAndYear/Pods-PickerDateMonthAndYear-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PickerDateMonthAndYear/Pods-PickerDateMonthAndYear.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3B3C836F6387FDC4014FA4E620D97A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A9F75AF5266A73DAABA1D92C31993C7 /* MonthYearPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MonthYearPicker/MonthYearPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MonthYearPicker/MonthYearPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MonthYearPicker/MonthYearPicker.modulemap";
+				PRODUCT_MODULE_NAME = MonthYearPicker;
+				PRODUCT_NAME = MonthYearPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A9548FFD228A57106FFE5DB2A59C510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A9F75AF5266A73DAABA1D92C31993C7 /* MonthYearPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MonthYearPicker/MonthYearPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MonthYearPicker/MonthYearPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MonthYearPicker/MonthYearPicker.modulemap";
+				PRODUCT_MODULE_NAME = MonthYearPicker;
+				PRODUCT_NAME = MonthYearPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FC2A41D92E061DFD5D4190B86DC5E817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4059F0B5B7E1DC85696C2795A364526 /* Pods-PickerDateMonthAndYear.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PickerDateMonthAndYear/Pods-PickerDateMonthAndYear-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PickerDateMonthAndYear/Pods-PickerDateMonthAndYear.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9971CEA71A4F0900E8D55C14516AB0E7 /* Build configuration list for PBXNativeTarget "Pods-PickerDateMonthAndYear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2A41D92E061DFD5D4190B86DC5E817 /* Debug */,
+				2A57AD9B6C20D9848F02FA3211A14180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6480D921501BC4622F88E7E5262E285 /* Build configuration list for PBXNativeTarget "MonthYearPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3C836F6387FDC4014FA4E620D97A63 /* Debug */,
+				5A9548FFD228A57106FFE5DB2A59C510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
